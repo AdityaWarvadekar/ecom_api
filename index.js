@@ -18,7 +18,7 @@ app.use(cors(
     }
 ));
 
-app.get("/", (req, res)=>{
+app.get("/g", (req, res)=>{
     res.send("HELLOOOOO");
 })
 
