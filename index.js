@@ -18,6 +18,10 @@ app.use(cors(
     }
 ));
 
+app.get("/", (req, res)=>{
+    res.send("HELLOOOOO");
+})
+
 app.post("/saveTransaction", async (req, res)=>{
     const {username, prodList} = req.body;
 
